@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    background-image: url(Tasmania_Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 5px;
+    padding: 5px;
+}
