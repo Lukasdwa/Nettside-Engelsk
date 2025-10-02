@@ -1,10 +1,57 @@
-.container {
-    display: grid;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: 100px 100px 100px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
     background-image: url(Tasmania_Background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    gap: 5px;
-    padding: 5px;
+}
+
+header h1 {
+    background: rgba(128, 128, 128, 0.37);
+    font-family: 'Inspiration', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    border: 2px solid white;
+    border-radius: 48px;
+
+    width: fit-content;
+    height: fit-content;
+
+    padding: 1rem;
+
+    color: white;
+    backdrop-filter: blur(12px);
+}
+
+#visit {
+    font-size: 56px;
+}
+
+#outline {
+    font-size: 24px;
+}
+
+#outline img {
+    width: 512px;
+}
+
+#CTA {
+    font-size: 36px;
 }

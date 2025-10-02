@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../Prosjekt 1"
+		},
+		{
+			"path": "../Nettside Øving"
+		},
+		{
+			"path": "../Nettside Kamera"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Nettside Engelsk"
+	}
+}
